@@ -1,6 +1,7 @@
 # Epytech 0.2
 
 ## IMPORTANT YOUR NEED YOUR AUTOLOGIN URL !
+https://intra.epitech.eu/admin/autolog?format=json
 
 ## Install:
 ```
@@ -84,5 +85,25 @@ def test():
     print(login_data.search('message'))
 
 test()
+```
 
+```PY
+from epytech import user, session, login
+
+class data():
+    key = session.create("<AUTOLOGIN LINK>")
+    user = user.init()
+    login = login.init()
+
+def complex_test():
+    data.user.load(data.key)
+    data.login.load(data.key)
+
+    if data.login.search('message') == "Success":
+        print("Welcome: %s" % data.user.search('firstname'))
+        print("Promo: %s\nSemester: %s" % (data.user.search('promo'), data.user.search('semester')))
+    else:
+        print("You are not logged")
+
+complex_test()
 ```
