@@ -1,16 +1,16 @@
-# Epitech.py 0.1
+# Epytech 0.2
 
 ## IMPORTANT YOUR NEED YOUR AUTOLOGIN URL !
 
 ## Install:
 ```
-git clone https://github.com/Neotoxic-off/epitech.py
-cp -rf epitech.py <YOUR PROJECT>
+git clone https://github.com/Neotoxic-off/epytech
+cp -rf epytech <YOUR PROJECT>
 ```
 
 ## Import:
 ```PY
-from epitech.py import attempt, session, user, login
+from epytech import attempt, session, user, login
 ```
 
 ### User's data:
@@ -61,19 +61,28 @@ access_token
 
 ## Examples:
 ```PY
+from epytech import user, session, login
+
 def test():
+    # Initialise the classes
+    user_data = user.init()
+    login_data = login.init()
+
     # The 'create' is your key to acces to your data
-    # and to don't loose your login
-    key_session = session.create("<YOUR AUTOLOGIN URL>")
+    # and to keep access to your session
+    key = session.create("<AUTOLOGIN LINK>")
 
     # The 'load' is the initialisation and the update
-    # of the elemennts for 'user' and 'load'
+    # of the elemennts for 'user' and 'login'
     # You need to use 'load' before the search
-    user.load(key_session)
-    login.load(key_session)
+    user_data.load(key)
+    login_data.load(key)
 
     # The 'search' will search on the data, the item
     # asked
-    print(login.search("login"))
-    print(user.search("promo"))
+    print(user_data.search('login'))
+    print(login_data.search('message'))
+
+test()
+
 ```
