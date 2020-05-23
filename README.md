@@ -20,7 +20,7 @@ cp -rf epytech/epytech <YOUR PROJECT>
 
 ## Import:
 ```PY
-from epytech import attempt, session, user, login
+from epytech import session, user, login
 ```
 
 ### User's data:
