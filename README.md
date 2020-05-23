@@ -2,9 +2,6 @@
 
 <p align = "left">
     <img alt = "epietch" width="234.1" height="310.7" src = "images/epitech.png"/>
-</p>
-<br>
-<p align = "center">
     <img alt = "version" src = "https://img.shields.io/badge/version-0.3-blue.svg"/>
 </p>
 
