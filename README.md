@@ -3,6 +3,7 @@
 <p align = "left">
     <img alt = "epietch" width="117.05" height="155.35" src = "images/epitech.png"/>
     <img alt = "version" src = "https://img.shields.io/badge/version-0.3-blue.svg"/>
+    <img alt = "version" src = "https://img.shields.io/badge/python-3-blue.svg"/>
 </p>
 
 ## IMPORTANT YOUR NEED YOUR AUTOLOGIN URL !
