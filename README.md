@@ -6,7 +6,10 @@
 </p>
 
 ## IMPORTANT YOUR NEED YOUR AUTOLOGIN URL !
-https://intra.epitech.eu/admin/autolog?format=json
+<a href = "https://intra.epitech.eu/admin/autolog?format=json">Generate Autologin Link</a>
+
+## Documentation
+<a href = "DOCUMENTATION.md">Documentation</a>
 
 ## Install:
 ```
