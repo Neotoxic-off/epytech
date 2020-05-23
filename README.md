@@ -1,7 +1,7 @@
 # Epytech 
 
 <p align = "left">
-    <img alt = "epietch" style = "width:20%;height:20%;" src = "images/epitech.png"/>
+    <img alt = "epietch" style = "width:2%;height:2%;" src = "images/epitech.png"/>
 </p>
 <br>
 <p align = "center">
