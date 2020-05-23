@@ -40,6 +40,7 @@ search(item):
 
 ```PY
 # data is the complete data list
+data
 ```
 
 ```PY
@@ -80,6 +81,7 @@ search(item):
 
 ```PY
 # data is the complete data list
+data
 ```
 
 ```PY
@@ -121,6 +123,7 @@ search(group):
 
 ```PY
 # data is the complete data list
+data
 ```
 
 ```PY
