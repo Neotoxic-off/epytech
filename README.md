@@ -2,7 +2,7 @@
 
 <p align = "left">
     <img alt = "epietch" width="117.05" height="155.35" src = "https://raw.githubusercontent.com/Neotoxic-off/epytech/master/images/epitech.png"/>
-    <img alt = "version" src = "https://img.shields.io/badge/version-0.6-blue.svg"/>
+    <img alt = "version" src = "https://img.shields.io/badge/version-0.7-blue.svg"/>
     <img alt = "version" src = "https://img.shields.io/badge/python-3-blue.svg"/>
 </p>
 
@@ -21,52 +21,6 @@ cp -rf epytech/epytech <YOUR PROJECT>
 ## Import:
 ```PY
 from epytech import session, user, login, notif
-```
-
-### User's data:
-```          
-login
-title
-internal_email
-lastname
-firstname
-userinfo
-referent_used
-picture
-picture_fun
-scolaryear
-promo
-semester
-location
-documents
-userdocs
-shell
-close
-ctime
-mtime
-id_promo
-id_history
-course_code
-semester_code
-school_id
-school_code
-school_title
-old_id_promo
-old_id_location
-rights
-invited
-studentyear
-admin
-editable
-restrictprofiles
-```
-
-### Login's data:
-```
-data
-login
-message
-access_token
 ```
 
 ## Examples:
