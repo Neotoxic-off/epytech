@@ -17,11 +17,20 @@
 git clone https://github.com/Neotoxic-off/epytech
 cp -rf epytech/epytech <YOUR PROJECT>
 ```
-
-## Import:
+### Import
 ```PY
 from epytech import session, user, login, notif
 ```
+
+## Install:
+```
+pip install --upgrade epytech
+```
+### Import
+```PY
+from epytech import session, user, login, notif
+```
+
 
 ## Examples:
 ```PY
