@@ -1,14 +1,10 @@
-<p align = "left">
-    <img alt = "logo" width="451" height="152" src = "https://raw.githubusercontent.com/Neotoxic-off/epytech/master/images/logo.png"/>
+<p align = "center">
+    <img alt = "logo" width="374" height="148" src = "https://raw.githubusercontent.com/Neotoxic-off/epytech/master/images/logo.png"/>
 </p>
-
-# Epytech v0.8
-
-## IMPORTANT YOUR NEED YOUR AUTOLOGIN URL !
-<a href = "https://intra.epitech.eu/admin/autolog?format=json">Generate Autologin Link</a>
 
 ## Documentation
 <a href = "https://github.com/Neotoxic-off/epytech/blob/master/DOCUMENTATION.md">Documentation</a>
+<a href = "https://intra.epitech.eu/admin/autolog?format=json">Autologin Link</a>
 
 ## Install:
 ```
