@@ -2,7 +2,7 @@
     <img alt = "logo" width="451" height="152" src = "https://raw.githubusercontent.com/Neotoxic-off/epytech/master/images/logo.png"/>
 </p>
 
-# Epytech v0.8
+# Epytech 0.8
 
 ## IMPORTANT YOUR NEED YOUR AUTOLOGIN URL !
 <a href = "https://intra.epitech.eu/admin/autolog?format=json">Generate Autologin Link</a>
