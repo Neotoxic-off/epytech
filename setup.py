@@ -1,11 +1,16 @@
 from setuptools import setup, find_packages
 
+with open('README.md') as f:
+    long_description = f.read()
+
 s = setup(
     name = "epytech",
-    version = "0.3",
+    version = "0.6",
     license = "MIT",
-    description = "🐍 The python's api for epitech's intra",
-    url = 'https://github.com/Neotoxic-off/epytch",
+    long_description = long_description,
+    long_description_content_type = 'text/markdown',  # This is important!
+    description = "The python's api for epitech's intra",
+    url = "https://github.com/Neotoxic-off/epytch",
     packages = find_packages(),
     install_requires = [],
     python_requires = ">= 3.4",

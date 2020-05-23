@@ -3,7 +3,7 @@ import requests
 class init():
     def __init__(self):
         self.data = {
-            "url" : "https://intra.epitech.eu/login?format=json"
+            "url" : "https://intra.epitech.eu/user/notification/alert?format=json"
         }
 
     def load(self, session):
@@ -17,5 +17,5 @@ class init():
     def data(self):
         return (self.data)
 
-    def search(self, item):
-        return (self.data.get(item))
+    def search(self, group):
+        return (self.data[group].get('title'))

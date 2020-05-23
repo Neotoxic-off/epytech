@@ -1,8 +1,8 @@
 # Epytech 
 
 <p align = "left">
-    <img alt = "epietch" width="117.05" height="155.35" src = "images/epitech.png"/>
-    <img alt = "version" src = "https://img.shields.io/badge/version-0.5-blue.svg"/>
+    <img alt = "epietch" width="117.05" height="155.35" src = "https://raw.githubusercontent.com/Neotoxic-off/epytech/master/images/epitech.png"/>
+    <img alt = "version" src = "https://img.shields.io/badge/version-0.6-blue.svg"/>
     <img alt = "version" src = "https://img.shields.io/badge/python-3-blue.svg"/>
 </p>
 
@@ -20,7 +20,7 @@ cp -rf epytech/epytech <YOUR PROJECT>
 
 ## Import:
 ```PY
-from epytech import session, user, login
+from epytech import session, user, login, notif
 ```
 
 ### User's data:
