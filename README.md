@@ -1,26 +1,14 @@
-# Epytech 
-
 <p align = "left">
-    <img alt = "epietch" width="117.05" height="155.35" src = "https://raw.githubusercontent.com/Neotoxic-off/epytech/master/images/epitech.png"/>
-    <img alt = "version" src = "https://img.shields.io/badge/version-0.7-blue.svg"/>
-    <img alt = "version" src = "https://img.shields.io/badge/python-3-blue.svg"/>
+    <img alt = "logo" width="451" height="152" src = "https://raw.githubusercontent.com/Neotoxic-off/epytech/master/images/logo.png"/>
 </p>
+
+# Epytech v0.8
 
 ## IMPORTANT YOUR NEED YOUR AUTOLOGIN URL !
 <a href = "https://intra.epitech.eu/admin/autolog?format=json">Generate Autologin Link</a>
 
 ## Documentation
 <a href = "https://github.com/Neotoxic-off/epytech/blob/master/DOCUMENTATION.md">Documentation</a>
-
-## Install:
-```
-git clone https://github.com/Neotoxic-off/epytech
-cp -rf epytech/epytech <YOUR PROJECT>
-```
-### Import
-```PY
-from epytech import session, user, login, notif
-```
 
 ## Install:
 ```
@@ -31,51 +19,48 @@ pip install --upgrade epytech
 from epytech import session, user, login, notif
 ```
 
-
-## Examples:
+## Example:
 ```PY
-from epytech import user, session, login
+from epytech import user, session, login, notif
+
+class content:
+    # Initialisation of the classes
+    user = user.init()
+    login = login.init()
+    notif = notif.init()
+
+    key = session.create("https://intra.epitech.eu/******************")
+
+def loader():
+    # Load the content into the classes
+    content.user.load(content.key)
+    content.login.load(content.key)
+    content.notif.load(content.key)
 
 def test():
-    # Initialise the classes
-    user_data = user.init()
-    login_data = login.init()
+    i = 0
+    loader()
 
-    # The 'create' is your key to acces to your data
-    # and to keep access to your session
-    key = session.create("<AUTOLOGIN LINK>")
+    if content.login.search('message') == "Success":
+        print("Login Success")
+        print("Welcome %s" % content.user.search('login'))
 
-    # The 'load' is the initialisation and the update
-    # of the elemennts for 'user' and 'login'
-    # You need to use 'load' before the search
-    user_data.load(key)
-    login_data.load(key)
-
-    # The 'search' will search on the data, the item
-    # asked
-    print(user_data.search('login'))
-    print(login_data.search('message'))
+        if content.notif.data:
+            if content.notif.len() > 1:
+                print("Your Notifications:\n")
+                while i < content.notif.len():
+                    print(content.notif.search(i))
+                    i += 1
+            else:
+                print("Your notification: %s" % content.notif.search(0))
+    else:
+        print("Login Failed")
 
 test()
 ```
-
-```PY
-from epytech import user, session, login
-
-class data():
-    key = session.create("<AUTOLOGIN LINK>")
-    user = user.init()
-    login = login.init()
-
-def complex_test():
-    data.user.load(data.key)
-    data.login.load(data.key)
-
-    if data.login.search('message') == "Success":
-        print("Welcome: %s" % data.user.search('firstname'))
-        print("Promo: %s\nSemester: %s" % (data.user.search('promo'), data.user.search('semester')))
-    else:
-        print("You are not logged")
-
-complex_test()
+### Result:
+```
+Login Success
+Welcome *********@epitech.eu
+You have a notification: Your login time is insufficient (0).
 ```

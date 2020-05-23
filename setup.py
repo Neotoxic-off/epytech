@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 s = setup(
     name = "epytech",
-    version = "0.7",
+    version = "0.8",
     license = "MIT",
     long_description = long_description,
     long_description_content_type = 'text/markdown',  # This is important!

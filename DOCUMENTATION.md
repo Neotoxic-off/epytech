@@ -135,10 +135,10 @@ len()
 ### Example:
 ```PY
 notif = notif.init()
-notif.load(data.key)
-data.notif.search(0)
-print(data.notif.data)
-data.notif.len()
+notif.load(key)
+notif.search(0)
+notif.len()
+notif.data
 ```
 
 ### User's data:
@@ -185,4 +185,9 @@ data
 login
 message
 access_token
+```
+
+### Notif's data:
+```PY
+# INT MAX size
 ```
