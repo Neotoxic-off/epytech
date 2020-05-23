@@ -1,4 +1,12 @@
-# Epytech 0.2
+# Epytech 
+
+<p align = "left">
+    <img alt = "epietch" style = "width:20%;height:20%;" src = "images/epitech.png"/>
+</p>
+<br>
+<p align = "center">
+    <img alt = "version" src = "https://img.shields.io/badge/version-0.3-blue.svg"/>
+</p>
 
 ## IMPORTANT YOUR NEED YOUR AUTOLOGIN URL !
 https://intra.epitech.eu/admin/autolog?format=json
@@ -6,7 +14,7 @@ https://intra.epitech.eu/admin/autolog?format=json
 ## Install:
 ```
 git clone https://github.com/Neotoxic-off/epytech
-cp -rf epytech <YOUR PROJECT>
+cp -rf epytech/epytech <YOUR PROJECT>
 ```
 
 ## Import:
