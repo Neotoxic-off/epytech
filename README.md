@@ -2,7 +2,7 @@
 
 <p align = "left">
     <img alt = "epietch" width="117.05" height="155.35" src = "images/epitech.png"/>
-    <img alt = "version" src = "https://img.shields.io/badge/version-0.3-blue.svg"/>
+    <img alt = "version" src = "https://img.shields.io/badge/version-0.5-blue.svg"/>
     <img alt = "version" src = "https://img.shields.io/badge/python-3-blue.svg"/>
 </p>
 
@@ -10,7 +10,7 @@
 <a href = "https://intra.epitech.eu/admin/autolog?format=json">Generate Autologin Link</a>
 
 ## Documentation
-<a href = "DOCUMENTATION.md">Documentation</a>
+<a href = "https://github.com/Neotoxic-off/epytech/blob/master/DOCUMENTATION.md">Documentation</a>
 
 ## Install:
 ```
