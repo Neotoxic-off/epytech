@@ -1,4 +1,12 @@
+<p align = "center">
+    <img alt = "logo" width="374" height="148" src = "https://raw.githubusercontent.com/Neotoxic-off/epytech/master/images/logo.png"/>
+</p>
+
 # Documentation
+
+<p align = "left">
+    <a href = "https://intra.epitech.eu/admin/autolog?format=json">Autologin</a>
+</p>
 
 ## SESSION:
 ```PY
@@ -35,17 +43,19 @@ load(session):
 # Search is searching into the datas, the item searched
 # and return it, if it doesn't exists it will return 'None'
 # REQUIRED THE INIT AND THE LOAD BEFORE
+# Type: item's type
 search(item):
 ```
 
 ```PY
 # data is the complete data list
+# Type: LIST
 data
 ```
 
 ```PY
 # len is the len of the data
-# return INT
+# Type: INT
 len()
 ```
 
@@ -76,17 +86,19 @@ load(session):
 # Search is searching into the datas, the item searched
 # and return it, if it doesn't exists it will return 'None'
 # REQUIRED THE INIT AND THE LOAD BEFORE
+# Type: item's type
 search(item):
 ```
 
 ```PY
 # data is the complete data list
+# Type: LIST
 data
 ```
 
 ```PY
 # len is the len of the data
-# return INT
+# Type: INT
 len()
 ```
 
@@ -118,17 +130,19 @@ load(session):
 # and return it, if it doesn't exists it will return 'None'
 # REQUIRED THE INIT AND THE LOAD BEFORE
 # Group must be a int !
+# Type: STR
 search(group):
 ```
 
 ```PY
 # data is the complete data list
+# Type: LIST
 data
 ```
 
 ```PY
 # len is the len of the data
-# return INT
+# Type: INT
 len()
 ```
 
@@ -142,50 +156,50 @@ notif.data
 ```
 
 ### User's data:
-```          
-login
-title
-internal_email
-lastname
-firstname
-userinfo
-referent_used
-picture
-picture_fun
-scolaryear
-promo
-semester
-location
-documents
-userdocs
-shell
-close
-ctime
-mtime
-id_promo
-id_history
-course_code
-semester_code
-school_id
-school_code
-school_title
-old_id_promo
-old_id_location
-rights
-invited
-studentyear
-admin
-editable
-restrictprofiles
-```
+|      VALUE      | TYPE |
+| :-------------: | :--: |
+|login            | str  |
+|title            | str  |
+|internal_email   | str  |
+|lastname         | str  |
+|firstname        | str  |
+|userinfo         | list |
+|referent_used    | bool |
+|picture          | str  |
+|picture_fun      | str  |
+|scolaryear       | str  |
+|promo            | int  |
+|semester         | int  |
+|location         | str  |
+|documents        | str  |
+|userdocs         | str  |
+|shell            | str  |
+|close            | bool |
+|ctime            | str  |
+|mtime            | str  |
+|id_promo         | str  |
+|id_history       | str  |
+|course_code      | str  |
+|semester_code    | str  |
+|school_id        | str  |
+|school_code      | str  |
+|school_title     | str  |
+|old_id_promo     | str  |
+|old_id_location  | str  |
+|rights           | list |
+|invited          | bool |
+|studentyear      | int  |
+|admin            | bool |
+|editable         | bool |
+|restrictprofiles | bool |
+
 
 ### Login's data:
-```
-data
-login
-message
-access_token
-```
+|      VALUE      | TYPE |
+| :-------------: | :--: |
+|login            | str  |
+|message          | str  |
+|access_token     | str  |
 
 ### Notif's data:
 ```PY

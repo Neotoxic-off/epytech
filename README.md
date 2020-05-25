@@ -3,8 +3,13 @@
 </p>
 
 ## Documentation
-<a href = "https://github.com/Neotoxic-off/epytech/blob/master/DOCUMENTATION.md">Documentation</a>
-<a href = "https://intra.epitech.eu/admin/autolog?format=json">Autologin Link</a>
+<p align = "left">
+    <a href = "https://github.com/Neotoxic-off/epytech/blob/master/DOCUMENTATION.md">Documentation</a>
+</p>
+<p align = "left">
+    <a href = "https://intra.epitech.eu/admin/autolog?format=json">Autologin</a>
+</p>
+
 
 ## Install:
 ```
