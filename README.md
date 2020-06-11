@@ -13,7 +13,7 @@
 
 ## Install:
 ```
-pip install --upgrade epytech
+pip3 install --upgrade epytech
 ```
 ### Import
 ```PY
