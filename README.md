@@ -9,6 +9,9 @@
 <p align = "left">
     <a href = "https://intra.epitech.eu/admin/autolog?format=json">Autologin</a>
 </p>
+<p align = "left">
+    <a href = "https://pypi.org/project/epytech/">PyPI</a>
+</p>
 
 
 ## Install:
